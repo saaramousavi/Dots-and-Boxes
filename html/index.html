@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dots and Boxes</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <div class="game-board" id="gameBoard">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <div class="message" id="message">نوبت شماست!</div>
+</div>
+
+<!-- Modal for Winner -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <h2 id="modalMessage">شما برنده شدید!</h2>
+        <button class="restart-button" id="restartButton">شروع مجدد</button>
+    </div>
+</div>
+
+<script src="/js/main.js"></script>
+
+</body>
+</html>
